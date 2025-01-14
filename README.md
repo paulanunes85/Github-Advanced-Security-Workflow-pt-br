@@ -1,66 +1,86 @@
 
-<h1 align="center">GitHub Advanced Security: Securing your workflow</h1>
-<h5 align="center">Revisão para Português Brasil @paulanunes85 - 2025</h5
+<h1 align="center">GitHub Advanced Security: Protegendo seu fluxo de trabalho</h1>
+<h5 align="center">Revisão para Português Brasil @paulanunes85 - 2025</h5>
 
-If you will be delivering this session, consult the [session-delivery-resources](https://github.com/microsoft/aitour-github-advanced-security-workflow/tree/main/session-delivery-resources#readme) page for slides, demo scripts, and other resources.
+Se você for ministrar esta sessão, consulte a página de [recursos de entrega de sessão](https://github.com/microsoft/aitour-github-advanced-security-workflow/tree/main/session-delivery-resources#readme) para slides, scripts de demonstração e outros recursos.
 
+## Descrição da Sessão
 
-## Session Description
+Os recursos do GitHub Advanced Security são integrados diretamente ao fluxo de trabalho de desenvolvimento, tornando-os fáceis de usar e dando aos desenvolvedores a capacidade de identificar possíveis problemas de segurança o mais cedo possível no ciclo de vida do desenvolvimento de software.
 
-GitHub Advanced Security features are built directly into the development workflow, making them easy to use and giving developers the ability to catch potential security issues as early in the software development lifecycle as possible.
+Aprenda como evitar que problemas de segurança comuns sejam mesclados ao seu código, como encontrar e corrigir vulnerabilidades mais rapidamente com IA e como manter suas dependências atualizadas via GitHub Advanced Security.
 
-Learn how to prevent common security issues from being merged into your codebase, how to find and fix vulnerabilities faster with AI, and how to keep your dependencies updated via GitHub Advanced Security.
+## Resultados de Aprendizagem
 
-## Learning Outcomes
-- Learn how to enable Dependabot alerts and get notifications about vulnerable dependencies, including a link to the affected file in the project and information about a fixed version.
-- See how to automatically update or generate a pull request to update vulnerable dependencies.
-- Discover how to automatically update supported packages used by your repository on a schedule you configure.
-- Learn how to enable Secret scanning and Push protection proactively prevents secret leaks by scanning code on commit and blocking a push if a secret is present.
-- Find vulnerabilities before they are merged into the code base with automated CodeQL scans.
-- Learn how to get suggested code fixes powered by AI in pull requests.
+- Aprenda como habilitar alertas do Dependabot e receber notificações sobre dependências vulneráveis, incluindo um link para o arquivo afetado no projeto e informações sobre uma versão corrigida.
+- Veja como atualizar automaticamente ou gerar uma solicitação de pull para atualizar dependências vulneráveis.
+- Descubra como atualizar automaticamente pacotes suportados usados pelo seu repositório em uma programação que você configura.
+- Aprenda como habilitar a varredura de segredos e a proteção de push que previne proativamente vazamentos de segredos ao escanear o código no commit e bloquear um push se um segredo estiver presente.
+- Encontre vulnerabilidades antes que elas sejam mescladas ao código com varreduras automatizadas do CodeQL.
+- Aprenda como obter correções de código sugeridas por IA em solicitações de pull.
 
+## Tecnologia Utilizada
 
-## Technology Used
-- GitHub Advanced Security
-   - Dependabot
-   - Secret Scanning
-   - CodeQL
-   - Copilot Autofix
-- GitHub Actions
+        - GitHub Advanced Security
+        - Dependabot
+        - Varredura de Segredos
+        - CodeQL
+        - Copilot Autofix
+        - GitHub Actions
 
-## Additional Resources and Continued Learning
+## Pré-requisitos
 
-| Resources          | Links                             | Description        |
+Antes de participar do workshop, há somente um pré-requisito: ter uma conta pública do GitHub. Todos os recursos, dependências e dados já fazem parte do repositório.
+- **Pré-requisitos:** Para usar o GitHub Copilot, você deve ter uma assinatura ativa do GitHub Copilot Business ou Enterprise. Inscreva-se para Copilot Free para VS Code apenas para fim de treinamento [Copilot for free para VS Code](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-free-plan?view=vs-2022).
+- **Habilitar GitHub Advanced Secutiry:** [Habilitando a segurança avançada do GitHub](https://resources.github.com/pt-br/learn/pathways/security/essentials/enabling-github-advanced-security/)
+
+## Recursos Adicionais e Aprendizado Contínuo
+
+| Recursos          | Links                             | Descrição        |
 |:-------------------|:----------------------------------|:-------------------|
-| Docs  | [Docs](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) | About GitHub Advanced Security |
-| Docs  | [Dependabot security updates Doc](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates) | About Dependabot security updates |
-| Docs  | [Copilot Autofix Doc](https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning#autofix-generation-process) | About Copilot Copilot Autofix for CodeQL code scanning |
-| Certification  | [GitHub Advanced Security Certification Program](https://examregistration.github.com/) | Learn more about GitHub Certifications |
+| Documentação  | [Documentação](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) | Sobre GitHub Advanced Security |
+| Documentação  | [Documentação de atualizações de segurança do Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates) | Sobre atualizações de segurança do Dependabot |
+| Documentação  | [Documentação do Copilot Autofix](https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning#autofix-generation-process) | Sobre o Copilot Autofix para varredura de código do CodeQL |
+| Certificação  | [Programa de Certificação do GitHub Advanced Security](https://examregistration.github.com/) | Saiba mais sobre as Certificações do GitHub |
 
-## Content Owners
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+## Proprietários do Conteúdo
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Não remova ou modifique esta seção -->
 
 <table>
 <tr>
-    <td align="center"><a href="http://learnanalytics.microsoft.com">
-        <img src="https://developer.microsoft.com/en-us/advocates/media/profiles/joylynn-kirui.jpg" width="100px;" alt="Chris Testa-O'Neill
+         <td align="center"><a href="http://learnanalytics.microsoft.com">
+                  <img src="https://developer.microsoft.com/en-us/advocates/media/profiles/joylynn-kirui.jpg" width="100px;" alt="Chris Testa-O'Neill
 "/><br />
-        <sub><b>Joylynn Kirui
+                  <sub><b>Joylynn Kirui
 </b></sub></a><br />
-            <a href="[https://developer.microsoft.com/advocates/joylynn-kirui]" title="talk">📢</a> 
-    </td>
+                                <a href="[https://developer.microsoft.com/advocates/joylynn-kirui]" title="talk">📢</a> 
+         </td>
 </tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## Responsible AI
-Microsoft is committed to helping our customers use our AI products responsibly, sharing our learnings, and building trust-based partnerships through tools like Transparency Notes and Impact Assessments. Many of these resources can be found at https://aka.ms/RAI. Microsoft’s approach to responsible AI is grounded in our AI principles of fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
+## IA Responsável
 
-Large-scale natural language, image, and speech models - like the ones used in this sample - can potentially behave in ways that are unfair, unreliable, or offensive, in turn causing harms. Please consult the [Azure OpenAI service Transparency note](https://learn.microsoft.com/legal/cognitive-services/openai/transparency-note?tabs=text) to be informed about risks and limitations.
+A Microsoft está comprometida em ajudar nossos clientes a usar nossos produtos de IA de forma responsável, compartilhando nossos aprendizados e construindo parcerias baseadas em confiança por meio de ferramentas como Notas de Transparência e Avaliações de Impacto. Muitos desses recursos podem ser encontrados em https://aka.ms/RAI. A abordagem da Microsoft para IA responsável é baseada em nossos princípios de IA de justiça, confiabilidade e segurança, privacidade e segurança, inclusão, transparência e responsabilidade.
 
-The recommended approach to mitigating these risks is to include a safety system in your architecture that can detect and prevent harmful behavior. [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/overview) provides an independent layer of protection, able to detect harmful user-generated and AI-generated content in applications and services. Azure AI Content Safety includes text and image APIs that allow you to detect material that is harmful. We also have an interactive Content Safety Studio that allows you to view, explore and try out sample code for detecting harmful content across different modalities. The following [quickstart documentation](https://learn.microsoft.com/azure/ai-services/content-safety/quickstart-text?tabs=visual-studio%2Clinux&pivots=programming-language-rest) guides you through making requests to the service.
+Modelos de linguagem natural, imagem e fala em larga escala - como os usados neste exemplo - podem potencialmente se comportar de maneiras injustas, não confiáveis ou ofensivas, causando danos. Consulte a [nota de transparência do serviço Azure OpenAI](https://learn.microsoft.com/legal/cognitive-services/openai/transparency-note?tabs=text) para se informar sobre riscos e limitações.
 
-Another aspect to take into account is the overall application performance. With multi-modal and multi-models applications, we consider performance to mean that the system performs as you and your users expect, including not generating harmful outputs. It's important to assess the performance of your overall application using [Performance and Quality and Risk and Safety evaluators.](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-metrics-built-in?tabs=warning)  You also have the ability to create and evaluate with [custom evaluators.](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/develop/evaluate-sdk#custom-evaluators)
+A abordagem recomendada para mitigar esses riscos é incluir um sistema de segurança em sua arquitetura que possa detectar e prevenir comportamentos prejudiciais. O [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/overview) fornece uma camada independente de proteção, capaz de detectar conteúdo prejudicial gerado por usuários e IA em aplicativos e serviços. O Azure AI Content Safety inclui APIs de texto e imagem que permitem detectar material prejudicial. Também temos um Content Safety Studio interativo que permite visualizar, explorar e testar códigos de exemplo para detectar conteúdo prejudicial em diferentes modalidades. A seguinte [documentação de início rápido](https://learn.microsoft.com/azure/ai-services/content-safety/quickstart-text?tabs=visual-studio%2Clinux&pivots=programming-language-rest) orienta você a fazer solicitações ao serviço.
 
-You can evaluate your AI application in your development environment using the [Azure AI Evaluation SDK.](https://microsoft.github.io/promptflow/index.html) Given either a test dataset or a target, your generative AI application generations are quantitatively measured with built-in evaluators or custom evaluators of your choice. To get started with the prompt flow sdk to evaluate your system, you can follow the [quickstart guide.](https://learn.microsoft.com/azure/ai-studio/how-to/develop/flow-evaluate-sdk) Once you execute an evaluation run, you can [visualize the results in Azure AI Studio.](https://learn.microsoft.com/azure/ai-studio/how-to/evaluate-flow-results)
+Outro aspecto a ser considerado é o desempenho geral do aplicativo. Com aplicativos multimodais e multimodelos, consideramos desempenho como o sistema funcionando conforme você e seus usuários esperam, incluindo não gerar saídas prejudiciais. É importante avaliar o desempenho do seu aplicativo geral usando [avaliadores de Desempenho e Qualidade e de Risco e Segurança.](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-metrics-built-in?tabs=warning) Você também tem a capacidade de criar e avaliar com [avaliadores personalizados.](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/develop/evaluate-sdk#custom-evaluators)
+
+Você pode avaliar seu aplicativo de IA em seu ambiente de desenvolvimento usando o [SDK de Avaliação do Azure AI.](https://microsoft.github.io/promptflow/index.html) Dado um conjunto de dados de teste ou um alvo, as gerações do seu aplicativo de IA generativa são medidas quantitativamente com avaliadores integrados ou avaliadores personalizados de sua escolha. Para começar a usar o SDK de fluxo de prompt para avaliar seu sistema, você pode seguir o [guia de início rápido.](https://learn.microsoft.com/azure/ai-studio/how-to/develop/flow-evaluate-sdk) Depois de executar uma execução de avaliação, você pode [visualizar os resultados no Azure AI Studio.](https://learn.microsoft.com/azure/ai-studio/how-to/evaluate-flow-results)
+
+## Avisos Legais
+ 
+A Microsoft e quaisquer colaboradores concedem a você uma licença para a documentação da Microsoft e outros conteúdos neste repositório sob a [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
+veja [LICENSE](LICENSE) e concedem a você uma licença para qualquer código no repositório sob a  [MIT License](https://opensource.org/licenses/MIT), consulte
+[LICENSE-CODE](LICENSE-CODE)
+ 
+Microsoft, Windows, Microsoft Azure e/ou outros produtos e serviços da Microsoft referenciados na documentação podem ser marcas registradas ou marcas registradas da Microsoft nos Estados Unidos e/ou em outros países. As licenças para este projeto não concedem a você direitos de uso de quaisquer nomes, logotipos ou marcas registradas da Microsoft. As diretrizes gerais de marcas registradas da Microsoft podem ser encontradas em http://go.microsoft.com/fwlink/?LinkID=254653.
+ 
+As informações de privacidade podem ser encontradas em https://privacy.microsoft.com/en-us/
+ 
+A Microsoft e quaisquer colaboradores reservam todos os outros direitos, sejam sob seus respectivos direitos autorais, patentes, ou marcas registradas, seja por implicação, estoppel ou de outra forma.
 
