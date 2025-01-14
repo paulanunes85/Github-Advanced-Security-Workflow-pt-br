@@ -32,7 +32,7 @@ Aprenda como evitar que problemas de segurança comuns sejam mesclados ao seu c�
 
 Antes de participar do workshop, há somente um pré-requisito: ter uma conta pública do GitHub. Todos os recursos, dependências e dados já fazem parte do repositório.
 - **Pré-requisitos:** Para usar o GitHub Copilot, você deve ter uma assinatura ativa do GitHub Copilot Business ou Enterprise. Inscreva-se para Copilot Free para VS Code apenas para fim de treinamento [Copilot for free para VS Code](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-free-plan?view=vs-2022).
-- **Habilitar GitHub Advanced Secutiry:** [Habilitando a segurança avançada do GitHub](https://resources.github.com/pt-br/learn/pathways/security/essentials/enabling-github-advanced-security/)
+- **Já possuir acesso ou Habilitar GitHub Advanced Security:** [Habilitando a segurança avançada do GitHub](https://resources.github.com/pt-br/learn/pathways/security/essentials/enabling-github-advanced-security/)
 
 ## Recursos Adicionais e Aprendizado Contínuo
 
