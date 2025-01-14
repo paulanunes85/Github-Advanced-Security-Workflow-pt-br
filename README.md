@@ -10,6 +10,8 @@ Os recursos do GitHub Advanced Security são integrados diretamente ao fluxo de 
 
 Aprenda como evitar que problemas de segurança comuns sejam mesclados ao seu código, como encontrar e corrigir vulnerabilidades mais rapidamente com IA e como manter suas dependências atualizadas via GitHub Advanced Security.
 
+- Material [GitHub Advanced Security:Protegendo seu fluxo de trabalho!](https://github.com/paulanunes85/Github-Advanced-Security-Workflow-pt-br/blob/main/PT-BR_BRK422_Tech%20-%20GitHub%20Advanced%20Security%20-%20Paula%20Silva.pdf)
+
 ## Resultados de Aprendizagem
 
 - Aprenda como habilitar alertas do Dependabot e receber notificações sobre dependências vulneráveis, incluindo um link para o arquivo afetado no projeto e informações sobre uma versão corrigida.
