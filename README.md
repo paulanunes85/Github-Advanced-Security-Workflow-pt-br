@@ -1,6 +1,9 @@
 
-# BRK422 - GitHub Advanced Security: Securing your workflow
+<h1 align="center">GitHub Advanced Security: Securing your workflow</h1>
+<h5 align="center">Revisão para Português Brasil @paulanunes85 - 2025</h5
+
 If you will be delivering this session, consult the [session-delivery-resources](https://github.com/microsoft/aitour-github-advanced-security-workflow/tree/main/session-delivery-resources#readme) page for slides, demo scripts, and other resources.
+
 
 ## Session Description
 
