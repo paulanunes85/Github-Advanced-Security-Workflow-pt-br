@@ -1,5 +1,5 @@
 
-<h1 align="center">GitHub Advanced Security: Protegendo seu fluxo de trabalho</h1>
+<h1 align="center">GitHub Advanced Security: Protegendo seu Workflow</h1>
 <h5 align="center">Revisão para Português Brasil @paulanunes85 - 2025</h5>
 
 Se você for ministrar esta sessão, consulte a página de [recursos de entrega de sessão](https://github.com/microsoft/aitour-github-advanced-security-workflow/tree/main/session-delivery-resources#readme) para slides, scripts de demonstração e outros recursos.
